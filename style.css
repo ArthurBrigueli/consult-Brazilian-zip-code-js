@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(180deg, rgba(89, 76, 238, 1) 0%, rgb(128, 251, 255) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "ubuntu", sans-serif;
+}
+
+.hide{
+    display: none;
+}
+
+.form{
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#res{
+    border: 2px solid white;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.containerInput{
+    display: flex;
+    justify-content: center;
+}
+
+#verificar{
+    width: 70px;
+    height: 45px;
+    background-color: rgb(43, 43, 43);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#verificar:hover{
+    background-color: rgb(65, 66, 66);
+    cursor: pointer;
+}
+
+#inputmoeda{
+    max-width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    margin-right: 8px;
+}
+
+#rua{
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+
+#cidade{
+    border-bottom: 1px solid white;
+
+    padding: 5px;
+}
+
+#destrito{
+    border-bottom: 1px solid white;
+
+    padding: 5px;
+}
+
+#estado{
+    border-bottom: 1px solid white;
+
+    padding: 5px;
+}
